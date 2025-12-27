@@ -80,13 +80,13 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1282,644" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1282,636" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="536,621" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="536,613" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="_Rev" />
         <Variable x:TypeArguments="x:Int32" Name="index" />
@@ -102,6 +102,16 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
+      <Assign sap:VirtualizedContainerService.HintSize="502,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:String">[_Rev]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:String">
+            <Literal x:TypeArguments="x:String" Value="" />
+          </InArgument>
+        </Assign.Value>
+      </Assign>
       <Assign sap:VirtualizedContainerService.HintSize="502,114" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[_Rev]</OutArgument>
@@ -112,7 +122,7 @@
           </InArgument>
         </Assign.Value>
       </Assign>
-      <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="[index]" DisplayName="For Each currentItem" sap:VirtualizedContainerService.HintSize="502,311" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Sample2]">
+      <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="[index]" DisplayName="For Each currentItem" sap:VirtualizedContainerService.HintSize="502,302" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Sample2]">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -139,7 +149,6 @@
           </ActivityAction>
         </ui:ForEach.Body>
       </ui:ForEach>
-      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="502,113" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[_Rev]" />
     </Sequence>
   </Sequence>
 </Activity>
