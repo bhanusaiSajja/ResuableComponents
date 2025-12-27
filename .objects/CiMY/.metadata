@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome World's #1 Platform for Curated Trade Insights  APIFDF",
+  "Type": "App",
+  "Id": "CiMYKAmiWE2sOSwdtrA-8A",
+  "Reference": "eKeOfqCE3k-zpNN0BaVAhQ/CiMYKAmiWE2sOSwdtrA-8A",
+  "Created": "2025-11-03T16:56:04.5503833Z",
+  "Updated": "2025-11-03T16:56:04.5503833Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

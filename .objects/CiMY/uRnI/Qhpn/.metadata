@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome World's #1 Platform for Curated Trade (1)",
+  "Type": "Screen",
+  "Id": "QhpnnF_4HEG3RmlK2pXm1Q",
+  "Reference": "eKeOfqCE3k-zpNN0BaVAhQ/QhpnnF_4HEG3RmlK2pXm1Q",
+  "ParentRef": "eKeOfqCE3k-zpNN0BaVAhQ/uRnIMwreo0CFWJ96AlGusg",
+  "Created": "2025-12-27T07:28:11.5512791Z",
+  "Updated": "2025-12-27T07:28:11.5512791Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
